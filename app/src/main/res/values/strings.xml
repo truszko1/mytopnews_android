@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Top News</string>
+    <string name="my_top_news">My Top News</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_show_business_insider_key">business-insider</string>
+    <string name="pref_show_business_insider_title">Business Insider</string>
+
+    <string name="pref_show_bloomberg_key">bloomberg</string>
+    <string name="pref_show_bloomberg_title">Bloomberg</string>
+
+    <string name="pref_show_cnn_key">cnn</string>
+    <string name="pref_show_cnn_title">CNN</string>
+
+    <string name="pref_show_the_huffington_post_key">the-huffington-post</string>
+    <string name="pref_show_the_huffington_post_title">The Huffington Post</string>
+
+    <string name="pref_show_usa_today_key">usa-today</string>
+    <string name="pref_show_usa_today_title">USA Today</string>
+
+    <string name="pref_show_the_wall_street_journal_key">the-wall-street-journal</string>
+    <string name="pref_show_the_wall_street_journal_title">The Wall Street Journal </string>
+
+    <string name="pref_show_the_washington_post_key">the-washington-post</string>
+    <string name="pref_show_the_washington_post_title">The Washington Post</string>
+
+    <string name="pref_show_true">Shown</string>
+    <string name="pref_show_false">Hidden</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/pref_show_business_insider_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_business_insider_title" />
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_default"
+        android:key="@string/pref_show_bloomberg_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_bloomberg_title" />
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_default"
+        android:key="@string/pref_show_cnn_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_cnn_title" />
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_default"
+        android:key="@string/pref_show_the_huffington_post_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_the_huffington_post_title" />
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_default"
+        android:key="@string/pref_show_usa_today_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_usa_today_title" />
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_default"
+        android:key="@string/pref_show_the_wall_street_journal_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_the_wall_street_journal_title" />
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_default"
+        android:key="@string/pref_show_the_washington_post_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_the_washington_post_title" />
+</PreferenceScreen>
