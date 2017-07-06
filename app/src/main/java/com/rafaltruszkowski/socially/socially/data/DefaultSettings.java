@@ -33,6 +33,7 @@ public class DefaultSettings {
     private static final String API_REQUEST_KEY_SORT_BY = "sortBy";
     private static final String API_REQUEST_KEY_API = "apiKey";
 
+    // it's okay to store it in Git; just for testing purposes
     private static final String API_ACCESS_KEY = "bc8ed1421a6a48a39b1695ee0697bcb0";
 
     public static URL getArticlesAPI(String source, Context context) {
