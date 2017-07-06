@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements
 
         mProgressBar = (ProgressBar) findViewById(R.id.pb_loading_indicator);
 
-        // I think a bug does not real default values on initial load
+        // I think a bug does not read default values on initial load
         // https://issuetracker.google.com/issues/36914268
         // this forces the system to load initial values
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
